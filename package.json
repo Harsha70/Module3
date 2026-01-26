@@ -1,0 +1,37 @@
+{
+  "name": "m3a2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon queue_q6.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsha70/Module3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harsha70/Module3/issues"
+  },
+  "homepage": "https://github.com/Harsha70/Module3#readme",
+  "keywords": [],
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.3.0",
+    "@prisma/client": "^7.3.0",
+    "express": "^5.2.1",
+    "nanoid": "^5.1.6",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.10",
+    "nodemon": "^3.1.11",
+    "prisma": "^7.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
