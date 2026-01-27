@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon queue_q6.ts",
+    "dev2": "nodemon server.ts",
+    "dev3": "nodemon q3.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
